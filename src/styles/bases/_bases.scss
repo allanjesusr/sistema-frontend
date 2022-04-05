@@ -1,0 +1,117 @@
+body{
+
+    overflow: auto;
+  }
+  
+  
+  select {
+  
+  width: 220px;
+  padding:12px 20px;
+  margin: 8px 0;
+  align-items: center;
+  display: inline-block;
+  background: #044214;
+  color: lightgray;
+  border:1px solid ;
+  border-radius: 4px;
+  box-sizing:border-box;
+  
+  }
+  
+  option {
+  
+  
+    width: 100px;
+    padding:12px 20px;
+    margin: 8px 0;
+    align-items: center;
+    display: inline-block;
+    background: #044214;
+    border:1px solid ;
+    border-radius: 4px;
+    box-sizing:border-box;
+    color: lightgray;
+    
+  
+  
+  
+  }
+  
+  option:first-child {
+  
+  display: none;
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="select"] {
+  
+      width: 220px;
+  padding:12px 20px;
+  margin: 8px 0;
+  align-items: center;
+  display: inline-block;
+  background: #044214;
+  color: lightgray;
+  border:1px solid ;
+  border-radius: 4px;
+  box-sizing:border-box;
+  
+      width: 100%;
+    }
+  }
+  
+  *,
+  *:before,
+  *:after{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  input[type="date"]{
+      background-color: #044214;
+      padding: 15px;
+      font-family: "Roboto Mono",monospace;
+      color: lightgray;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      
+  }
+
+
+  ::-webkit-calendar-picker-indicator{
+      background-color: #ffffff;
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 3px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="select"] {
+  
+
+      background-color: #044214;
+      padding: 15px;
+      font-family: "Roboto Mono",monospace;
+      color: lightgray;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      width: 100%;
+    }
+  }
+  
+  h2 {
+
+    color: rgb(65, 64, 64);
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
